@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printshare Print Remotely within Nigeria</title>
+    <link rel="shortcut icon" href="image/printshare icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        * {box-sizing: border-box;}
+        body {font-family: Verdana, sans-serif;}
+        .mySlides {display: none;}
+        img {vertical-align: middle;}
+
+header{
+    background-color: rgb(10, 97, 138);
+}
+.logo-holder{
+    width: 1.5rem;
+    /* height: 0.3rem;    */
+    padding-right: 100%; 
+    position: absolute;
+    text-align: center;
+
+
+}
+
+.navbar{
+    width: 100%;
+    height: 7rem;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: 17.75rem;    */
+    background-color: rgb(10, 97, 138);
+    /* margin-bottom: 10rem; */
+}
+.navbar ul{ 
+    font-size: 15px;  
+    margin-left: 2rem;
+    /* position: absolute; */
+    display:flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;   
+    justify-content: space-around;
+    
+    
+
+}
+.navbar ul li{    
+    /* display: flex; */
+    padding: 1rem;
+    /* margin: 0.3rem; */
+    position: relative;
+    text-transform: capitalize;
+    font-size: 15px;       
+    /* font-weight: bolder; */
+    list-style: none;     
+
+}
+.nav-links a{
+    color: white;
+    
+}
+
+.nav-links li a:hover{
+    background-color: rgb(33, 175, 241);
+    border-style: none;
+    width: 6rem;
+    height: 3rem;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 10px; 
+
+}
+
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 100%;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+
+        .banner-text {
+          color: #f2f2f2;
+          /* font-size: 15px; */
+          padding-left: 30px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: left;
+        }
+        
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 2.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+        }
+
+
+
+
+h1{
+    color: rgb(10, 97, 138);
+    text-decoration-line: underline;
+    padding-left: 35px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(image/BKG\ 2.jpg);
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+p{
+    color: rgb(58, 58, 58);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    /* margin: 1rem; */
+    padding-right: 52rem;
+    padding-left: 35px;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+
+
+.footer{
+    background-color: rgb(4, 23, 65);
+    width: 100%;
+    height: 15rem;
+}
+.service-name{  
+    color: white;
+    font-size: 15px;
+    display: flex;
+    /* position: absolute; */
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around; 
+    padding-left: 40%; 
+    padding-right: 40%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    text-align: left;
+    
+}
+
+.icon {
+  color: white;
+  align-items: center;
+  /* padding-left: 30rem; */
+  padding-top: 1rem;
+ 
+}
+
+.bi {
+  color: rgb(103, 178, 240);
+}
+</style>
+</head>     
+<body>
+    <header>
+    <div class="logo-holder">
+        
+    </div><div class="navbar">        
+            <ul class="nav-links">
+                <a href="#"><li>Home</a></li>           
+                <a href="#"><li>about</a></li>
+                <a href="#"><li>product</a></li>
+                <a href="#"><li>blog</a></li>
+                <a href="#"><li>Contact US</a></li>
+            </ul>
+            <div class="logo-holder">
+                <img src="image/printshare logo.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- <h2>Automatic Slideshow</h2>
+<p>Change image every 2 seconds:</p> -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">1 / 4</div> -->
+  <div class="banner-text">
+        <!-- <p class="lemon">NO more third-Party</p> -->
+        <h1 class="remote">Print REMOTELY</h1>
+        <!-- <p class="lemon">From anywhere</p>  -->
+       
+        
+</div>
+  <img src="image/banner 1a.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+    <!-- <div class="numbertext">2 / 4</div> -->
+    <div class="banner-text2">
+        <img src="image/banner 2a.jpg" style="width:100%">
+    <div class="text"></div>
+    </div>
+</div>
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">3 / 4</div> -->
+  <img src="image/banner 3.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+    <div class="mySlides fade">
+        <!-- <div class="numbertext">4 / 4</div> -->
+        <img src="image/banner 4.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+  </div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>  
+</div>
+
+
+
+<!-- beginning of about us page -->
+<div class="container">
+    <!-- <div class="picture-profile"> -->
+        <h1 class="Header-text">About Us</h1>
+        <br>
+        <a href="slide"><p>Printshare.com.ng</a> is a an intelligent support system that complete client print request remotely and delivers quality print at client’s budget within 24hours for office and personal paper print, 1-5 working days for commercial print order. 
+            <p>______________________________________
+        <br><br>If you have ever had a bad and disappointing day just because you couldn’t print that report in time, or submit that business proposal or you had to just give in to poor quality print because you did not have options then PRINTSHARE.COM.NG is your best bet. <br> <br> Once you hit the <a href="slide">Print button</a>, your document is automatically connected to the right Printer Option for your job through a secured end to end encryption. Once your document is uploaded, its accessed by our professional and certified personnel who supervises the completion phase..once that is done, your document is delivered to you right at your doorstep. It that EASY! <br><br>
+        At <a href="slide">PrintShare.com.ng</a> there are no surprises. You pay for what you order for, and the result is great. The 3options of printer options are design for specific project scope. <a href="#">click next</a></p></p>
+        <!-- <img class="bkg-1" src="image/bkg.jpg" alt="">  -->
+    </div>
+    
+
+</div>
+<!-- end of print options -->
+<div class="footer">
+  <div class="icon">
+    <p>Follow us on our Social Platforms       @printshare:
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+            
+    </p>
+
+</div>
+    <div class="service-name">
+        <ul>
+            <li>Product</li>
+            <li>Overview</li>
+            <li>Features</li>
+            <li>Tutorials</li>
+          
+        </ul> 
+    
+        <ul>
+            
+            <li>Releases</li>
+            <li>Company</li>
+            <li>About us</li>
+            <li>Careers</li>
+            <li>News</li>
+        </ul> 
+    
+        <ul>
+            
+            <li>Resources</li>
+            <li>Newsletter</li>
+            <li>Events</li>
+            <li>Support</li>
+        </ul>
+   
+        <ul>
+            <li>Socials</li>
+            <li>Twitter</li>
+            <li>Youtube</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+
+        </ul>
+        <ul>
+
+        
+            <li>Legal</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>Cookies</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+</script>
+
+    
+</body>
+</html>

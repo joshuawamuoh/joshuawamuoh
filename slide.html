@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printshare Print Remotely within Nigeria</title>
+    <link rel="shortcut icon" href="image/printshare icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css/slide.css">
+    
+</head>     
+<body>
+    <header>
+    <div class="logo-holder">
+        
+    </div><div class="navbar">        
+            <ul class="nav-links">
+                <a href="slide.html"><li>Home</a></li>           
+                <a href="aboutus.html"><li>about</a></li>
+                <a href="#"><li>product</a></li>
+                <a href="#"><li>blog</a></li>
+                <a href="#"><li>Contact US</a></li>
+            </ul>
+            <div class="logo-holder">
+                <img src="image/printshare logo.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- <h2>Automatic Slideshow</h2>
+<p>Change image every 2 seconds:</p> -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">1 / 4</div> -->
+  <div class="banner-text">
+        <!-- <p class="lemon">NO more third-Party</p> -->
+        
+        <!-- <p class="lemon">From anywhere</p>  -->
+       
+        
+</div>
+<h1 class="remote">No MORE  <br> Third-Party</h1>
+  <img src="image/banner 1a.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+    <!-- <div class="numbertext">2 / 4</div> -->
+    <div class="banner-text2">
+        <h1 class="remote-1">Print from your <br> Comfort with No Hassle</h1>
+        <img src="image/banner 2a.jpg" style="width:100%">
+    <div class="text"></div>
+    </div>
+</div>
+
+<div class="mySlides fade">
+  <!-- <div class="numbertext">3 / 4</div> -->
+  <h1 class="remote-1">For all Purpose <br> Paper Printing and LOGISTICS</h1>
+  <img src="image/banner 3.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+    <div class="mySlides fade">
+        <!-- <div class="numbertext">4 / 4</div> -->
+        <h1 class="remote-3">Your No.1  <br> REMOTE Printer</h1>
+        <img src="image/banner 4.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+  </div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>  
+</div>
+
+
+
+<!-- beginning of print options -->
+<div class="container">
+    <div class="print-options">
+        <div class="option-holder">
+            <div class="border">
+                <a href="#"> <button onclick="myFunction()"><h2>Print</a>
+                    <i class="bi bi-arrow-down-circle"></i>
+               </h2></button> 
+                <p>Personal Document</p>
+              <a href="#"><img class="printer" src="image/printer1 (2).png" alt=" printer"></a> 
+            </div>
+        </div>
+
+        <div class="border2">
+            <div class="option-holder">
+               <a href="#"> <button onclick="myFunction()"><h2>Print</a>
+                    <i class="bi bi-arrow-down-circle"></i>
+                </h2></button> 
+                <p>Office Document</p>
+             <a href="#"><img class="printer-2" src="image/printer 2.png" alt=" printer"></a>
+            </div>
+        </div>
+
+        <div class="border3">
+            <div class="option-holder3">        
+               <a href="#"><button onclick="myFunction()"><h2>Print </a>
+                    <i class="bi bi-arrow-down-circle"></i>
+                </h2></button>
+                <p>Commercial Document</p>                
+            <a href="#"><img class="printer3" src="image/printer_3-removebg-preview.png" alt=" printer"></a>
+            </div>
+        </div>
+    
+</div>
+</div>
+<!-- end of print options -->
+<div class="footer">
+    <div class="icon">
+        <p>Follow us on our Social Platforms       @printshare:
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+                
+        </p>
+   
+    </div>
+    
+    <div class="service-name">
+        <ul>
+            <li>Product</li>
+            <li>Overview</li>
+            <li>Features</li>
+            <li>Tutorials</li>
+          
+        </ul> 
+    
+        <ul>
+            
+            <li>Releases</li>
+            <li>Company</li>
+            <li>About us</li>
+            <li>Careers</li>
+            <li>News</li>
+        </ul> 
+    
+        <ul>
+            
+            <li>Resources</li>
+            <li>Newsletter</li>
+            <li>Events</li>
+            <li>Support</li>
+        </ul>
+   
+        <ul>
+            <li>Socials</li>
+            <li>Twitter</li>
+            <li>Youtube</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+
+        </ul>
+        <ul>
+
+        
+            <li>Legal</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>Cookies</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+function myFunction() {
+  let text;
+  let person = prompt("Enter Printing Options:", "what do you want to print?");
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    text = "Hello " + person + "! How are you today?";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+    
+</body>
+</html>
